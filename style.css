@@ -1,0 +1,675 @@
+*{
+    margin: 0px;
+}
+@font-face {
+    font-family: x;
+    src: url(./fonts/Anton-Regular.ttf);
+}
+#top{
+    
+    height: 60px;
+    vertical-align: center;
+    position:relative;
+    top: 0px;
+    
+    
+}
+#top-a{
+    height: 40px;
+    position: absolute;
+    left: 0;
+    width: 50%;
+    background-color: rgb(248, 195, 5);
+    text-align: center;
+    padding-top: 10px;
+    
+
+}
+#top-a a{
+    color: black;
+    text-decoration: none;
+   
+
+}
+#media{
+    position: absolute;
+    width: 50%;
+    right:0px;
+    background-color: rgb(57, 56, 56);
+    padding-top: 10px;
+
+    
+}
+
+#media img{
+    height: 30px;
+    float: right;
+    padding: 5px;
+    align-items: center;
+    
+}
+#media img:hover{
+    transform: scale(1.1);
+}
+
+.navbar{
+    height: 80px;
+   
+    position:sticky;
+    top: 0;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 50px;
+   
+
+
+}
+.logo{
+
+    width:10%;
+    position: absolute;
+    left:50px;
+
+}
+.menu{
+   
+    width:90%;
+    position: absolute;
+    right: 0px;
+    margin-left: 20px;
+
+}
+.menu ul li{
+    display: inline-block;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+    text-align: center;
+    line-height: 56px;
+    
+    
+}
+
+
+.menu ul a{
+    text-decoration: none;
+   color: rgb(0, 0, 0);
+   font-family: x;
+
+}
+
+.menu ul li:hover{
+     border-radius: 30px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.logo img{
+    max-width:150px;
+    width: 100%;
+    height:auto ;
+
+}
+
+
+
+header{
+    background-image: url(./images/header.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-attachment:fixed;
+        margin-top: 60px;
+      
+        
+       
+}
+header div{
+    margin-top: 150px;
+}
+header div h1{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 900;
+}
+header div input{
+    height:40px;
+    width: 300px;
+    
+    margin-top: 20px;
+    text-align: center;
+    
+}
+header div input:hover{
+    background-color: rgb(209, 252, 253);
+}
+header div button{
+    padding: 10px;
+    font-size: 18px;
+    background-color: rgb(244, 98, 7);
+    color: white;
+}
+header div button:hover{
+    background-color: #ffffff;
+    color: black;
+}
+
+/* 
+about us section start */
+
+.about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    margin-top: 20px;
+}
+.ab-cont h2{
+    color: #000000;
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 100px;
+
+}
+.ab-cont p{
+    color: #000000;
+    text-align: justify;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family: x;
+}
+
+.ab-cont h1{
+    color: #000000;
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 100px;
+}
+.ab-cont h2::after{
+    content: "Our-company";
+    color: red;
+    font-weight: 700;
+    font-size: 40px;
+}
+.ab-cont button{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: yellow;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.ab-cont button:hover{
+    background-color: #ffffff;
+    color: black;
+}
+.div1{
+    background-color: orangered;
+    padding-bottom: 15px;
+}
+.div1 img{
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}
+
+.div1 h1{
+    text-align: center;
+    font-size: 34px;
+}
+
+
+
+
+/* services section start  */
+
+.service{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
+}
+.ser-img{
+    height:auto;
+    max-width: 250px;
+    width: 100%;
+}
+.service div{
+   
+    
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+.service div:hover{
+    background-color: #99d3ee;
+    color: black;
+    transform: translateY(-10px);
+    
+    
+}
+#ser-h1{
+    text-align: center;
+    padding: 20px;
+}
+.service div h1{
+    color: #000000;
+    font-family: x;
+    text-align: center;
+     margin: 10px;
+}
+.ser-img:hover{
+    border-radius: 100%;
+}
+.service div p{
+    color: #000000;
+    font-family: x;
+}
+#ser-h1::after{
+    content: "Services";
+    color: red;
+    text-shadow: 2px 2px 4px black;
+    padding:7px;
+}
+
+
+/* booking satrt */
+
+#book{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: red;
+    margin-top: 20px;
+}
+
+.booking{
+   text-align:center;
+   margin-left: 150px;
+   
+    
+}
+.booking input{
+    height:auto;
+    max-width: 250px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    margin: 0 auto;
+}
+.booking button{
+    padding: 10px;
+    max-width: 200px;
+    width: 100%;
+    font-size: 24px;
+    background-color: rgb(44, 44, 43);
+    color: white;
+    margin:0 auto;
+
+}
+.booking label{
+    font-size: 30px;
+    color: #ffffff;
+}
+.book-img img{
+    max-width: 600px;
+    width: 100%;
+    height: auto;
+}
+
+/* blogs */
+
+#fl-h1{
+    text-align: center;
+    margin: 20px;
+    text-shadow: 2px 2px 4px grey;
+}
+    
+
+#fl-h1::after{
+    content: "Blogs";
+    color: red;
+    padding: 5px;
+}
+.fi{
+    display: flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-wrap: wrap;
+
+}
+
+
+
+.fi>img:hover{
+    transform: translateY(-10px);
+   
+    box-shadow: 10px 10px 10px grey;
+    
+}
+.fi img{
+    height:auto;
+    max-width: 350px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+   margin: 5px;
+   
+}
+
+/* team */
+
+.team{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(56, 37, 57);
+    flex-wrap: wrap;
+  
+}
+.tm-img{
+    height:auto;
+    max-width: 250px;
+    width: 100%;
+    border-radius: 100%;
+}
+.team div{
+   
+    
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+}
+.team div:hover{
+    background-color: #99d3ee;
+    color: black;
+    transform: translateY(-10px);
+    
+    
+}
+.team div h1{
+    color: #ffffff;
+    font-family: x;
+}
+.tm-img:hover{
+    border-radius: 100%;
+}
+#tm-h1{
+    text-align: center;
+     margin: 10px;
+}
+#tm-h1::after{
+    content: "Team";
+    color: red;
+    text-shadow: 2px 2px 4px black;
+    padding:7px;
+}
+#tm-media {
+    background-color: rgb(255, 255, 255);
+   
+}
+
+
+
+
+#tm-media img{
+    height: 30px;
+    padding: 5px;
+    
+}
+
+
+
+/* contact page start */
+
+#contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(41, 46, 67);
+   
+}
+#cnt-media img{
+    height: 30px;
+    margin-top: 10px;
+    padding: 10px;
+}
+#cnt-media img:hover{
+    transform: scale(1.2);
+}
+#div1cnt {
+    margin: 10px;
+}
+#div1cnt h1{
+    color:orangered;
+    padding: 10px;
+    font-size: 40px;
+    
+}
+#div1cnt p{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+}
+#div1cnt a{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+
+}
+#div2cnt{
+    margin: 10px;
+}
+
+#div2cnt h1{
+    color:orangered;
+    padding: 10px;
+    font-size:36px;
+    margin-top: 12px;
+}
+#div2cnt ul li{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+   
+}
+#div2cnt ul li:hover{
+    transform: translatey(-10px);
+}
+#div3cnt h1{
+    color:orangered;
+   margin-top: 0px;
+    font-size:36px;
+   
+
+}
+#div3cnt p {
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 25px;
+}
+#div3cnt input{
+    height: 38px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    
+    
+}
+#div3cnt input:hover{
+    background-color: #50aafe;
+    
+}
+#div3cnt input::placeholder{
+    color: #000000;
+    font-size: 18px;
+}
+#div3cnt button{
+    padding: 9px;
+    width: 150px;
+    background-color: orangered;
+    text-align: center;
+    color: #ffffff;
+    font-size: 17px;
+   
+
+}
+#div3cnt button:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* footer */
+footer{
+    text-align: center;
+    background-color: orangered;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 24px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px) {
+
+
+    .js{
+        display: none;
+    }
+    #menu{
+        width: 2em;
+        display: block;
+        background: #ffffff;
+        text-align: center;
+        float: right;
+        font-size: 1.35em;
+        position:relative;
+        top:30px;
+        right: 10px;
+    }
+    #nav{
+        float: left;
+        margin-left: 200px;
+       background-color: #ffffff;
+        
+
+       
+       
+    }
+
+
+    
+   
+   
+       
+       
+    
+    
+    .about{
+        flex-direction: column;
+        align-items:center;
+        text-align: center;
+       }
+       .ab-cont{
+        margin-top: 20px;
+       }
+       .ab-cont p{
+        text-align: center;
+       }
+       .service{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
+      }
+      .ser-img{
+        width: 400px;
+        height: 400px;
+      }
+
+      #book{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .booking{
+        margin-left: 0px;
+      }
+
+      .fi{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .team{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        
+      }
+      .tm-img{
+        width: 400px;
+        height: 400px;
+      }
+
+      #contact{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      footer{
+        display: none;
+      }
+      #div3cnt p{
+        text-align: justify;
+      }
+
+     
+     
+       
+}
+/* extraa css */
+
+.sticky{
+    position: fixed!important;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    background-color: #99d3ee;
+}
+ #menu{
+    color: #99d3ee;
+ }
+
